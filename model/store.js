@@ -26,3 +26,18 @@ export const State = {};
  * @param {State} prev
  * @param {State} next
  */
+
+/**
+ * @type {Array<Subscription>}
+ */
+let subscribers = [];
+
+/**
+ * @type {Array<State>}
+ */
+let states = [{ count: 0 }];
+
+/**
+ * @type {GetState}
+ */
+export const getState = () => Object.freeze({ ...states[0] });
