@@ -1,3 +1,6 @@
+import { Action } from "./actions.js";
+import { reducer } from "./reducers.js";
+
 /**
  * State of Tally App
  * @typedef {object} State
