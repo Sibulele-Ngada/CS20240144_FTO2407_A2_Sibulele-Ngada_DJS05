@@ -56,7 +56,7 @@ export const dispatch = (action) => {
 };
 
 /**
- *
+ * Subscribe to store changes
  * @param {Subscription} subscription
  * @returns {EmptyFn}
  */
